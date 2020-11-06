@@ -71,3 +71,11 @@ body {
   text-transform: uppercase;
   text-shadow: 4px 4px #000;
 }
+
+.box:hover .layover{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.layover:hover h2{
+  text-shadow: none;  
+}
