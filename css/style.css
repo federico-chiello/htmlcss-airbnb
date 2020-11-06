@@ -35,3 +35,19 @@ body {
 #venezia{
   background-image: url('https://cdn.pixabay.com/photo/2016/02/19/11/36/canal-1209808__340.jpg');
 }
+
+.box .layover {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.layover h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+}
