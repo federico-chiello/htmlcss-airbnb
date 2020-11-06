@@ -9,19 +9,26 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 900px;
   height: 800px;
   background-color: yellow;
   margin: auto;
 }
 
-.box {
-  width: 400px;
+.container .row {
+  width: 900px;
   height: 300px;
-  background-color: red;
-  margin-bottom: 5px;
+  background: blue;
+}
+
+.row .box {
+  width: 250px;
+  height: 250px;
+  /* background-color: red; */
+  margin: 10px auto;
   background-position: center;
   background-size: cover;
+  display: inline-block;
 }
 
 #palermo {
@@ -36,6 +43,18 @@ body {
   background-image: url('https://cdn.pixabay.com/photo/2016/02/19/11/36/canal-1209808__340.jpg');
 }
 
+#torino {
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/11/09/17/torino-5393338__340.jpg');
+}
+
+#napoli {
+  background-image: url('https://cdn.pixabay.com/photo/2019/11/24/09/47/naples-4649019__340.jpg');
+}
+
+#milano {
+  background-image: url('https://cdn.pixabay.com/photo/2014/02/23/19/32/milan-273124__340.jpg');
+}
+
 .box .layover {
   height: 100%;
   width: 100%;
@@ -43,11 +62,12 @@ body {
   position: relative;
 }
 
-.layover h2{
+.box .layover h2{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  
+  text-transform: uppercase;
+  text-shadow: 4px 4px #000;
 }
